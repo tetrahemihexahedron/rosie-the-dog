@@ -1,0 +1,4 @@
+rosiethe.dog {
+	root * /app/public
+	file_server
+}

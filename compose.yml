@@ -1,0 +1,21 @@
+services:
+  caddy:
+    build:
+      context: ./
+      args:
+        - CADDYFILE=${CADDYFILE:-Caddyfile}
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - caddy_data:/data
+      - caddy_config:/config
+    networks:
+      - main
+
+volumes:
+  caddy_data:
+  caddy_config:
+
+networks:
+  main:
