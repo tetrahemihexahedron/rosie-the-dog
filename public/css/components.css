@@ -1,0 +1,31 @@
+/** Header **/
+
+@scope (.site-header) {
+  :scope {
+    /* don't display on small screens */
+    display: none;
+
+    padding-block-start: 16px;
+    padding-block-end: 32px;
+
+    /* hardcode background color to match image background */
+    background-color: hsl(47 100% 93%);
+    background-image: url("../images/banners/rosie_with_ball_illustration_278x168.png");
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+    @media (width > 47rem) {
+      display: block;
+    }
+  }
+
+  .header-text {
+    padding-inline: 48px;
+
+    /* Use px instead of rem since the text is decorative and already gigantic */
+    font-size: 96px;
+    font-weight: 900;
+    font-variation-settings: "CASL" 0.8;
+    color: var(--color-azure);
+  }
+}

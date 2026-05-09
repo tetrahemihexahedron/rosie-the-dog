@@ -1,6 +1,11 @@
-@layer base;
+@layer base, components;
 
 /**
  * global css variables and default styles
  **/
 @import url("base.css") layer(base);
+
+/**
+* components
+**/
+@import url("components.css") layer(components);
