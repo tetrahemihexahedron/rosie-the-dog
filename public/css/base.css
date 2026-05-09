@@ -11,12 +11,12 @@
 :root {
   /** tokens **/
 
-  --color-teal: hsla(175, 55%, 33%, 1);
-  --color-azure: hsla(214, 61%, 31%, 1);
-  --color-cream: hsla(47, 100%, 93%, 1);
-  --color-coral: hsla(16, 88%, 62%, 1);
-  --color-brown-400: hsla(24, 57%, 20%, 1);
-  --color-brown-800: hsla(23, 73%, 9%, 1);
+  --color-teal: hsl(175 55% 33%);
+  --color-azure: hsl(214 61% 31%);
+  --color-cream: hsl(47 100% 93%);
+  --color-coral: hsl(16 88% 62%);
+  --color-brown-400: hsl(24 57% 20%);
+  --color-brown-800: hsl(23 73% 9%);
 
   --font-family-recursive: "Recursive", system-ui, sans-serif;
 
