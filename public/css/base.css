@@ -48,3 +48,57 @@
 *::after {
   box-sizing: border-box;
 }
+
+/** Default element styles **/
+
+body {
+  margin: 0;
+
+  /** default font styles **/
+  font-family: var(--font-family-default);
+  font-size: var(--font-size-regular);
+  font-weight: var(--font-weight-regular);
+  line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  text-wrap: balance;
+}
+
+h1 {
+  font-size: var(--font-size-xx-large);
+  font-weight: var(--font-weight-bold);
+  font-variation-settings: var(--font-variation-casual);
+  line-height: 1.25;
+}
+
+h2 {
+  font-size: var(--font-size-x-large);
+  font-weight: var(--font-weight-semibold);
+  line-height: 1.375;
+}
+
+p,
+li,
+figcaption {
+  max-inline-size: 75ch;
+  margin: 0;
+  text-wrap: pretty;
+}
+
+img {
+  display: block;
+  max-inline-size: 100%;
+}
+
+code {
+  font-family: var(--font-family-default);
+  font-weight: var(--font-weight-light);
+  font-variation-settings: var(--font-variation-monospace);
+}
