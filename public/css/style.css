@@ -1,0 +1,6 @@
+@layer base;
+
+/**
+ * global css variables and default styles
+ **/
+@import url("base.css") layer(base);

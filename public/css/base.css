@@ -1,0 +1,50 @@
+/** Font declarations **/
+
+@font-face {
+  font-family: "Recursive";
+  src: url("../fonts/Recursive_VF.woff2") format("woff2");
+  font-weight: 300 1000;
+}
+
+/** Tokens and global CSS variables **/
+
+:root {
+  /** tokens **/
+
+  --color-teal: hsla(175, 55%, 33%, 1);
+  --color-azure: hsla(214, 61%, 31%, 1);
+  --color-cream: hsla(47, 100%, 93%, 1);
+  --color-coral: hsla(16, 88%, 62%, 1);
+  --color-brown-400: hsla(24, 57%, 20%, 1);
+  --color-brown-800: hsla(23, 73%, 9%, 1);
+
+  --font-family-recursive: "Recursive", system-ui, sans-serif;
+
+  --font-weight-light: 300;
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 800;
+
+  --font-size-small: 0.875rem;
+  --font-size-regular: 1rem;
+  --font-size-large: 1.25rem;
+  --font-size-x-large: 2rem;
+  --font-size-xx-large: 3.5rem;
+
+  --font-variation-monospace: "MONO" 1;
+  --font-variation-casual: "CASL" 1;
+
+  /** variables **/
+
+  --font-family-default: var(--font-family-recursive);
+  --text-color-default: var(--color-brown-800);
+  --background-color-default: var(--color-cream);
+}
+
+/** Global default styles **/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
