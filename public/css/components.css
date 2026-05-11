@@ -20,7 +20,7 @@
   }
 
   .header-text {
-    padding-inline: 48px;
+    padding-inline: 32px;
 
     /* Use px instead of rem since the text is decorative and already gigantic */
     font-size: 96px;
