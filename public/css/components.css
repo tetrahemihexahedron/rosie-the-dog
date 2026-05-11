@@ -84,3 +84,12 @@
 .content-wrapper > .wide-content {
   --content-width: var(--content-width-wide);
 }
+
+.flow-wrapper > * + * {
+  margin-block-start: var(--flow-space-default);
+}
+
+/** add extra space before headings and sections **/
+.flow-wrapper > * + :is(section, h1, h2, h3) {
+  margin-block-start: var(--flow-space-large);
+}

@@ -45,6 +45,9 @@
   --content-width-wide: 75rem;
 
   --site-gutter-width: 16px;
+
+  --flow-space-default: 1rem;
+  --flow-space-large: 3rem;
 }
 
 /** Global default styles **/
