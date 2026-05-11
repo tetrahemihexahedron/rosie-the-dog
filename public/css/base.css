@@ -39,6 +39,12 @@
   --font-family-default: var(--font-family-recursive);
   --text-color-default: var(--color-brown-800);
   --background-color-default: var(--color-cream);
+
+  --content-width-narrow: 45rem;
+  --content-width-default: 60rem;
+  --content-width-wide: 75rem;
+
+  --site-gutter-width: 16px;
 }
 
 /** Global default styles **/

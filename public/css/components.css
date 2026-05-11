@@ -70,3 +70,17 @@
 
   background-color: var(--background-color-default);
 }
+
+.content-wrapper > * {
+  --content-width: var(--content-width-default);
+
+  margin-inline: auto;
+  max-inline-size: min(
+    100% - 2 * var(--site-gutter-width),
+    var(--content-width)
+  );
+}
+
+.content-wrapper > .wide-content {
+  --content-width: var(--content-width-wide);
+}
