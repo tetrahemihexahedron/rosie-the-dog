@@ -85,6 +85,10 @@
   --content-width: var(--content-width-wide);
 }
 
+.content-wrapper > .narrow-content {
+  --content-width: var(--content-width-narrow);
+}
+
 .flow-wrapper > * + * {
   margin-block-start: var(--flow-space-default);
 }
