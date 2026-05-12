@@ -11,7 +11,7 @@
     /* hardcode background color to match image background */
     background-color: hsl(47 100% 93%);
     background-image: url("../images/banners/rosie_with_ball_illustration_278x168.png");
-    background-position: bottom right;
+    background-position: bottom right 16px;
     background-repeat: no-repeat;
 
     @media (width > 47rem) {
