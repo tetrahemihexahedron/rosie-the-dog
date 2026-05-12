@@ -37,6 +37,9 @@
   /** variables **/
 
   --font-family-default: var(--font-family-recursive);
+
+  --font-size-main-title: clamp(2rem, 1.2895rem + 3.1579cqi, 3.5rem);
+
   --text-color-default: var(--color-brown-800);
   --background-color-default: var(--color-cream);
 

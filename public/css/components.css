@@ -99,7 +99,9 @@
 }
 
 .main-title {
-  padding-block: 40px;
+  padding-block: 1em;
+
+  font-size: var(--font-size-main-title);
   text-align: center;
 }
 
