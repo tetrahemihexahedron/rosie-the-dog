@@ -112,3 +112,7 @@ code {
   font-weight: var(--font-weight-light);
   font-variation-settings: var(--font-variation-monospace);
 }
+
+main {
+  padding-block-end: 40px;
+}
