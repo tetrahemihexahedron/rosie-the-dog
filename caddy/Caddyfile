@@ -1,4 +1,5 @@
 rosiethe.dog {
 	root * /app/public
+	templates
 	file_server
 }

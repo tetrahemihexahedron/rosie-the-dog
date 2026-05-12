@@ -1,4 +1,5 @@
 localhost:80 {
 	root * /app/public
+	templates
 	file_server
 }
