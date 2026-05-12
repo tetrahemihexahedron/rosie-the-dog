@@ -2,9 +2,7 @@
 <html lang="en">
   {{ include "templates/head.html" (dict "title" "Rosie’s Gallery") }}
   <body class="page-wrapper">
-    <header class="site-header content-wrapper">
-      <div class="header-text wide-content">Rosie the Dog</div>
-    </header>
+    {{ include "templates/header.html" }}
     {{ include "templates/primary-navigation.html" }}
     <main class="content-wrapper">
       <h1 class="main-title">Gallery</h1>
