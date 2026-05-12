@@ -93,3 +93,8 @@
 .flow-wrapper > * + :is(section, h1, h2, h3) {
   margin-block-start: var(--flow-space-large);
 }
+
+.main-title {
+  padding-block: 40px;
+  text-align: center;
+}
