@@ -104,6 +104,7 @@ figcaption {
 img {
   display: block;
   max-inline-size: 100%;
+  height: auto;
 }
 
 code {
