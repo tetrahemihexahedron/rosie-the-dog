@@ -50,7 +50,8 @@
     list-style: none;
 
     display: flex;
-    gap: 32px;
+    flex-wrap: wrap;
+    gap: 4px 32px;
     justify-content: flex-end;
   }
 
