@@ -39,6 +39,7 @@
   --font-family-default: var(--font-family-recursive);
 
   --font-size-main-title: clamp(2rem, 1.2895rem + 3.1579cqi, 3.5rem);
+  --font-size-section-title: clamp(1.5rem, 1.2632rem + 1.0526cqi, 2rem);
 
   --text-color-default: var(--color-brown-800);
   --background-color-default: var(--color-cream);

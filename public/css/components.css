@@ -105,6 +105,10 @@
   text-align: center;
 }
 
+.section-title {
+  font-size: var(--font-size-section-title);
+}
+
 @scope (.panel) {
   :scope {
     display: grid;
@@ -134,5 +138,7 @@
 
   .panel-text-content {
     grid-area: text;
+
+    container: panel-text-content / inline-size;
   }
 }
