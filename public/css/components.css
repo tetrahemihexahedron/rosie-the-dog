@@ -98,3 +98,35 @@
   padding-block: 40px;
   text-align: center;
 }
+
+@scope (.panel) {
+  :scope {
+    display: grid;
+    gap: 32px;
+    grid-template-areas:
+      "img"
+      "text";
+
+    @media (width > 47rem) {
+      gap: 48px;
+      grid-template-columns: 1fr 1fr;
+
+      &:nth-child(even) {
+        grid-template-areas: "img text";
+      }
+
+      &:nth-child(odd) {
+        grid-template-areas: "text img";
+      }
+    }
+  }
+
+  img {
+    grid-area: img;
+    justify-self: center;
+  }
+
+  .panel-text-content {
+    grid-area: text;
+  }
+}
