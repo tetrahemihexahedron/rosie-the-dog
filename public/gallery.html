@@ -1,12 +1,6 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
-
-    <title>Rosie’s Gallery</title>
-  </head>
+  {{ include "templates/head.html" (dict "title" "Rosie’s Gallery") }}
   <body class="page-wrapper">
     <header class="site-header content-wrapper">
       <div class="header-text wide-content">Rosie the Dog</div>
