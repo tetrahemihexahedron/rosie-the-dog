@@ -11,10 +11,12 @@
 :root {
   /** tokens **/
 
-  --color-teal: hsl(175 55% 33%);
+  --color-teal-700: hsl(175 55% 31%);
+  --color-violet-700: hsl(265, 55%, 33%);
+  --color-coral-400: hsl(16 88% 62%);
+
   --color-azure: hsl(214 61% 31%);
   --color-cream: hsl(47 100% 93%);
-  --color-coral: hsl(16 88% 62%);
   --color-brown-400: hsl(24 57% 20%);
   --color-brown-800: hsl(23 73% 9%);
 
@@ -103,6 +105,18 @@ figcaption {
   max-inline-size: 75ch;
   margin: 0;
   text-wrap: pretty;
+}
+
+a:link {
+  color: var(--color-teal-700);
+}
+
+a:visited {
+  color: var(--color-violet-700);
+}
+
+a:active {
+  color: var(--color-coral-400);
 }
 
 img {
