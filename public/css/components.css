@@ -2,15 +2,25 @@
 
 @scope (.site-header) {
   :scope {
+    /* background color is hardcoded to match image background */
+    --header-background-color: hsl(47 100% 93%);
+
     /* don't display on small screens */
     display: none;
 
     padding-block-start: 16px;
     padding-block-end: 32px;
 
-    /* hardcode background color to match image background */
-    background-color: hsl(47 100% 93%);
-    background-image: url("../images/banners/rosie_with_ball_illustration_278x168.png");
+    background-color: var(--header-background-color);
+    /** the linear gradient masks the image as it moves behind the header text **/
+    background-image:
+      linear-gradient(
+        to right,
+        var(--header-background-color)
+          clamp(672px, 1003.6667px + -33.3333vw, 752px),
+        transparent clamp(784px, 1115.6667px + -33.3333vw, 864px)
+      ),
+      url("../images/banners/rosie_with_ball_illustration_278x168.png");
     background-position: bottom right 16px;
     background-repeat: no-repeat;
 
