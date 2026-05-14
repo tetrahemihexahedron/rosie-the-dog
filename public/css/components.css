@@ -132,14 +132,14 @@
     }
   }
 
-  img {
-    grid-area: img;
-    justify-self: center;
-  }
-
   .panel-text-content {
     grid-area: text;
 
     container: panel-text-content / inline-size;
   }
+}
+
+.panel img {
+  grid-area: img;
+  justify-self: center;
 }
