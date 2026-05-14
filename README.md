@@ -4,7 +4,7 @@ This repository contains the files for a personal website celebrating Rosie the 
 
 ## About the code
 
-When I began working on a website for Rosie, I wanted to use some of the same tools that I was using at work, so that I could gain more experience with them. I installed Tailwind and Stimulus, amongst other dependencies, and spent most of my energy talking to Cursor's AI agents. I wanted to experiment with different models, modes, and prompting techniques, with an eye toward improving the quality of the code produced. I discovered that, even with Tailwind, I didn't really have enough experience with modern CSS to guide AI to produce CSS that was easily maintained and extended.
+When I began working on a website for Rosie, I wanted to use some of the same tools that I was using at work, so that I could gain more experience with them. I installed Tailwind and Stimulus, amongst other dependencies, and spent most of my energy talking to Cursor's AI agents. I wanted to experiment with different models, modes, and prompting techniques, with an eye toward improving the quality of the code generated. It was a useful learning experience. In particular, I discovered that, even with Tailwind, I didn't really have enough experience with modern CSS to guide AI to produce CSS that was well organized and easily maintained and extended.
 
 I've since left that job, and my goals have changed: My first objective is to learn more CSS, so that I can be a more informed judge of code quality and give more detailed instructions to AI. Hence, I put my previous code aside and started afresh using, for the moment, only vanilla CSS and HTML.
 
