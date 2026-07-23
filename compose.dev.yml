@@ -4,6 +4,7 @@ services:
       context: ./
       args:
         - CADDYFILE=${CADDYFILE:-Caddyfile_dev}
+    restart: no
     ports: !override
       - "${PORT:-8000}:80"
     volumes:
