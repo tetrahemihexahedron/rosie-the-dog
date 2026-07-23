@@ -1,4 +1,6 @@
-from caddy:2.10.2-alpine
+arg CADDY_VERSION=2.11.4
+
+from caddy:${CADDY_VERSION}-alpine
 
 arg CADDYFILE=Caddyfile_dev
 
