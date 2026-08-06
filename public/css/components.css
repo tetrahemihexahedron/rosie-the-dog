@@ -149,7 +149,7 @@
   }
 }
 
-.panel img {
+.panel picture {
   grid-area: img;
   justify-self: center;
 }
