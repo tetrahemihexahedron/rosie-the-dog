@@ -17,3 +17,9 @@ docker compose -f compose.yml -f compose.dev.yml up
 ```
 
 Then visit **http://localhost:8000/index.html**.
+
+## Deploying
+
+```sh
+docker composer -f compose.yml up --build -d
+```
