@@ -153,3 +153,22 @@
   grid-area: img;
   justify-self: center;
 }
+
+@scope (.gallery) {
+  :scope {
+    padding-top: 32px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 24px;
+  }
+}
+
+.gallery img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+  border: 2px solid var(--color-brown-400);
+  border-radius: 4px;
+  corner-shape: squircle;
+}
