@@ -21,5 +21,5 @@ Then visit **http://localhost:8000/index.html**.
 ## Deploying
 
 ```sh
-docker composer -f compose.yml up --build -d
+docker compose -f compose.yml up --build -d
 ```
