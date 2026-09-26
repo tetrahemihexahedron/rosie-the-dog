@@ -1,0 +1,55 @@
+{
+  "title": "2023 November With little Charlie",
+  "description": "Rosie and a small maltipoo named Charlie, lying on a rug chewing on their own toys.",
+  "capturedAt": "2023-11-22T12:02:58",
+  "processedAt": "2026-09-26T09:47:52Z",
+  "sha256": "84c27a3d34f0374a796cb9e28ba6091e762c434485a80da8b18e368bcf4c9522",
+  "width": 5712,
+  "height": 4284,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  }
+}

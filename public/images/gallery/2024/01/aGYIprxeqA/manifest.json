@@ -1,0 +1,55 @@
+{
+  "title": "2024 January Before grooming",
+  "description": "A very fluffy Rosie sitting in her car seat prior to being groomed.",
+  "capturedAt": "2024-01-05T08:59:43",
+  "processedAt": "2026-09-26T09:53:29Z",
+  "sha256": "0d570cc28659690773082cf4fba5d5cc6c3de4f47f8cbed09fc447274d664ea1",
+  "width": 3024,
+  "height": 4032,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  }
+}

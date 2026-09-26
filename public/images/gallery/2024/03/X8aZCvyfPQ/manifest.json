@@ -1,0 +1,55 @@
+{
+  "title": "2024 March Toys on window sill",
+  "description": "Two dog toys sitting where Rosie left them, on a window sill. Rosie's tail is also visible.",
+  "capturedAt": "2024-03-10T18:29:43",
+  "processedAt": "2026-09-26T09:55:35Z",
+  "sha256": "a2516e5fbebcae8f9ffac0fac7a07884d132e61fc6dc1ad45933b143ff7ae8da",
+  "width": 3024,
+  "height": 4032,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  }
+}

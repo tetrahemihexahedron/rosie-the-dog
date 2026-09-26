@@ -1,0 +1,55 @@
+{
+  "title": "2023 December AKC STAR Puppy",
+  "description": "Rosie standing in front of a sign that says that she passed that AKC S.T.A.R. Puppy test.",
+  "capturedAt": "2023-12-22T23:18:41",
+  "processedAt": "2026-09-26T09:52:55Z",
+  "sha256": "cee5897105ae271c86dfc2581e6cd9dedf121c72bf609af40af8139c241788ac",
+  "width": 4838,
+  "height": 3456,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 286
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 571
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 857
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 1143
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 286
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 571
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 857
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 1143
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "2024 January Toy basket overboard",
+  "description": "Rosie peering at the toys on the floor, after she managed to pull the toy basket off of the bookshelf.",
+  "capturedAt": "2024-01-07T20:35:48",
+  "processedAt": "2026-09-26T09:53:55Z",
+  "sha256": "824ec72dd7e57c9316d798e671b2c508225090d81ddf67cca47ac6505cc931c5",
+  "width": 3024,
+  "height": 4032,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  }
+}

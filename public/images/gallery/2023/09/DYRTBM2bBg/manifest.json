@@ -1,0 +1,55 @@
+{
+  "title": "2023 September In crate",
+  "description": "Rosie, as a puppy, sleeping in her crate.",
+  "capturedAt": "2023-09-13T21:44:26",
+  "processedAt": "2026-09-26T09:49:13Z",
+  "sha256": "81f59b70a34a3b8e99834ed3da5dd92d44852f14c0f7b7736f438cb5e59ba012",
+  "width": 3024,
+  "height": 4032,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  }
+}

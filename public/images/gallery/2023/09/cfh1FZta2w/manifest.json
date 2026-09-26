@@ -1,0 +1,55 @@
+{
+  "title": "2023 September Between shoes",
+  "description": "A close-up of Rosie as a small puppy, lying between someone's feet in the grass.",
+  "capturedAt": "2023-09-09T13:21:37",
+  "processedAt": "2026-09-26T09:48:45Z",
+  "sha256": "d25cfcea35c0ef2ddeb4c1e53cc2c3641f5dc5c81aaa40a5fe6b6f736fca14d6",
+  "width": 4032,
+  "height": 3024,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  }
+}

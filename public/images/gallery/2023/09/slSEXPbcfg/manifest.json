@@ -1,0 +1,55 @@
+{
+  "title": "2023 September Reaching for the toy basket",
+  "description": "Rosie, as a puppy, trying to get to a toy basket that is out of reach on a bookshelf.",
+  "capturedAt": "2023-09-17T21:14:54",
+  "processedAt": "2026-09-26T09:49:28Z",
+  "sha256": "e566eb29ea731c687bddf1c8206d7ce8df603a93762da2c8dd066151c74616e5",
+  "width": 3024,
+  "height": 4032,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  }
+}

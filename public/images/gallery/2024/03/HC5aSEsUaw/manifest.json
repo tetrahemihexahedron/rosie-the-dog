@@ -1,0 +1,55 @@
+{
+  "title": "2024 March In bed with black blanket",
+  "description": "Rosie looking very cute lying on a throw blanket in her straw bed.",
+  "capturedAt": "2024-03-16T18:58:49",
+  "processedAt": "2026-09-26T09:55:46Z",
+  "sha256": "6073bc7192453467ef30ac2dcb84cdaf0631b94bb90b8fd97e97aebb527cbf84",
+  "width": 3024,
+  "height": 4032,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "title": "2023 October Posing",
+  "description": "Rosie as a small puppy, sitting and looking directly at the camera shortly after her first salon grooming.",
+  "capturedAt": "2023-10-03T17:26:39",
+  "processedAt": "2026-09-26T09:50:16Z",
+  "sha256": "c7bdc5c0a13484d3b3b6e6b90f1d201646e79ef09a9027f98fb57072291d09fd",
+  "width": 3024,
+  "height": 4032,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  }
+}

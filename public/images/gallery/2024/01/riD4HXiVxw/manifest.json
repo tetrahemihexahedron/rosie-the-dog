@@ -1,0 +1,55 @@
+{
+  "title": "2024 January Funny hair",
+  "description": "Rosie sitting on a pink striped rug, looking up with crazy hair.",
+  "capturedAt": "2024-01-07T20:21:31",
+  "processedAt": "2026-09-26T09:53:46Z",
+  "sha256": "32c77d75aea5b779bb13cd169be9523a48a2fa63418c3c265747b64261d6ed24",
+  "width": 3024,
+  "height": 4032,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  }
+}

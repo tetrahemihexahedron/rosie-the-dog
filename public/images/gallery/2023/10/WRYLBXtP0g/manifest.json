@@ -1,0 +1,55 @@
+{
+  "title": "2023 October With shoe",
+  "description": "Rosie in her straw bed with my shoe.",
+  "capturedAt": "2023-10-27T12:06:35",
+  "processedAt": "2026-09-26T09:51:11Z",
+  "sha256": "7a5afa7683184e8bbe993c283fa4b431b2e981c89a029cd0500367e3f7957a29",
+  "width": 4032,
+  "height": 3024,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  }
+}

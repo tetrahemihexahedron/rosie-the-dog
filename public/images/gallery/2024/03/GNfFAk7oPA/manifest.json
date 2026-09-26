@@ -1,0 +1,55 @@
+{
+  "title": "2024 March Big stick in the snow",
+  "description": "Rosie in the snow with a very large stick in her mouth.",
+  "capturedAt": "2024-03-22T13:56:12",
+  "processedAt": "2026-09-26T09:56:17Z",
+  "sha256": "63dd01084fc5cbf00b393c7ae30e77215d8e4bdb61aad2b4ed26e642cad439c7",
+  "width": 4032,
+  "height": 3024,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  }
+}

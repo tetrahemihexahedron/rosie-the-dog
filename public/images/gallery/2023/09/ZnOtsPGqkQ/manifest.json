@@ -1,0 +1,55 @@
+{
+  "title": "2023 September Sleeping on lap",
+  "description": "A small fluffy Rosie, sleeping on her human's outstretched legs.",
+  "capturedAt": "2023-09-09T17:11:16",
+  "processedAt": "2026-09-26T09:48:01Z",
+  "sha256": "e6704dd41f2192a41cc6aeb85ad931acf8a4702a9b7c4edd71b6b5435b391c17",
+  "width": 3264,
+  "height": 2448,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 1200
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 300
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 600
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 900
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 1200
+      }
+    ]
+  }
+}

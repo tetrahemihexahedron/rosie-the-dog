@@ -1,0 +1,55 @@
+{
+  "title": "2024 January Tongue",
+  "description": "Rosie in her straw bed, photographed from above while licking her face.",
+  "capturedAt": "2024-01-22T17:20:48",
+  "processedAt": "2026-09-26T09:54:30Z",
+  "sha256": "e836e598da32ab4ae87030a4e8a78c691c30f5afdf46e1e408c2b7166ca46f9c",
+  "width": 3024,
+  "height": 4032,
+  "variants": {
+    "AVIF": [
+      {
+        "src": "w400.avif",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.avif",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.avif",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.avif",
+        "width": 1600,
+        "height": 2133
+      }
+    ],
+    "JPEG": [
+      {
+        "src": "w400.jpg",
+        "width": 400,
+        "height": 533
+      },
+      {
+        "src": "w800.jpg",
+        "width": 800,
+        "height": 1067
+      },
+      {
+        "src": "w1200.jpg",
+        "width": 1200,
+        "height": 1600
+      },
+      {
+        "src": "w1600.jpg",
+        "width": 1600,
+        "height": 2133
+      }
+    ]
+  }
+}
