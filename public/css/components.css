@@ -158,7 +158,7 @@
   :scope {
     padding-top: 32px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(min(225px, 100%), 1fr));
     gap: 24px;
   }
 }
