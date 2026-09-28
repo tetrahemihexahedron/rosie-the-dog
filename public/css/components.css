@@ -156,9 +156,13 @@
 
 @scope (.gallery) {
   :scope {
+    --img-min-width: 220px;
     padding-top: 32px;
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(225px, 100%), 1fr));
+    grid-template-columns: repeat(
+      auto-fill,
+      minmax(min(var(--img-min-width), 100%), 1fr)
+    );
     gap: 24px;
   }
 }
