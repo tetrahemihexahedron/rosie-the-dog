@@ -1,11 +1,327 @@
 @layer base, components;
 
 /**
- * global css variables and default styles
- **/
-@import url("base.css") layer(base);
+* global css variables and default styles
+**/
+@layer base {
+  /** Font declarations **/
+
+  @font-face {
+    font-family: "Recursive";
+    src: url("../fonts/Recursive-filtered.woff2") format("woff2");
+    font-weight: 300 1000;
+  }
+
+  /** Tokens and global CSS variables **/
+
+  :root {
+    /** tokens **/
+
+    --color-teal-700: hsl(175 55% 31%);
+    --color-violet-700: hsl(265, 55%, 33%);
+    --color-coral-400: hsl(16 88% 62%);
+
+    --color-azure: hsl(214 61% 31%);
+    --color-cream: hsl(47 100% 93%);
+    --color-brown-400: hsl(24 57% 20%);
+    --color-brown-800: hsl(23 73% 9%);
+
+    --font-family-recursive: "Recursive", system-ui, sans-serif;
+
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 650;
+    --font-weight-bold: 800;
+
+    --font-size-small: 0.875rem;
+    --font-size-regular: 1rem;
+    --font-size-large: 1.25rem;
+    --font-size-x-large: 2rem;
+    --font-size-xx-large: 3.5rem;
+
+    --font-variation-monospace: "MONO" 1;
+    --font-variation-casual: "CASL" 1;
+
+    /** variables **/
+
+    --font-family-default: var(--font-family-recursive);
+
+    --font-size-main-title: clamp(2rem, 1.2895rem + 3.1579cqi, 3.5rem);
+    --font-size-section-title: clamp(1.5rem, 1.2632rem + 1.0526cqi, 2rem);
+
+    --text-color-default: var(--color-brown-800);
+    --background-color-default: var(--color-cream);
+
+    --content-width-narrow: 45rem;
+    --content-width-default: 60rem;
+    --content-width-wide: 75rem;
+
+    --site-gutter-width: 16px;
+
+    --flow-space-default: 1rem;
+    --flow-space-large: 3rem;
+  }
+
+  /** Global default styles **/
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  /** Default element styles **/
+
+  body {
+    margin: 0;
+
+    /** default font styles **/
+    font-family: var(--font-family-default);
+    font-size: var(--font-size-regular);
+    font-weight: var(--font-weight-regular);
+    line-height: 1.6;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    margin: 0;
+    text-wrap: balance;
+  }
+
+  h1 {
+    font-size: var(--font-size-xx-large);
+    font-weight: var(--font-weight-bold);
+    font-variation-settings: var(--font-variation-casual);
+    line-height: 1.25;
+  }
+
+  h2 {
+    font-size: var(--font-size-x-large);
+    font-weight: var(--font-weight-semibold);
+    line-height: 1.375;
+  }
+
+  p,
+  li,
+  figcaption {
+    max-inline-size: 75ch;
+    margin: 0;
+    text-wrap: pretty;
+  }
+
+  a:link {
+    color: var(--color-teal-700);
+  }
+
+  a:visited {
+    color: var(--color-violet-700);
+  }
+
+  a:active {
+    color: var(--color-coral-400);
+  }
+
+  img {
+    display: block;
+    max-inline-size: 100%;
+    block-size: auto;
+  }
+
+  code {
+    font-family: var(--font-family-default);
+    font-weight: var(--font-weight-light);
+    font-variation-settings: var(--font-variation-monospace);
+  }
+
+  main {
+    padding-block-end: 40px;
+  }
+}
 
 /**
 * components
 **/
-@import url("components.css") layer(components);
+@layer components {
+  /** Header **/
+
+  @scope (.site-header) {
+    :scope {
+      /* background color is hardcoded to match image background */
+      --header-background-color: hsl(47 100% 93%);
+
+      /* don't display on small screens */
+      display: none;
+
+      padding-block-start: 16px;
+      padding-block-end: 32px;
+
+      background-color: var(--header-background-color);
+      /** the linear gradient masks the image as it moves behind the header text **/
+      background-image:
+        linear-gradient(
+          to right,
+          var(--header-background-color)
+            clamp(672px, 1003.6667px + -33.3333vw, 752px),
+          transparent clamp(784px, 1115.6667px + -33.3333vw, 864px)
+        ),
+        url("../images/banners/rosie_with_ball_illustration_278x168.png");
+      background-position: bottom right 16px;
+      background-repeat: no-repeat;
+
+      @media (width > 47rem) {
+        display: block;
+      }
+    }
+
+    .header-text {
+      padding-inline: 32px;
+
+      /* Use px instead of rem since the text is decorative and already gigantic */
+      font-size: 96px;
+      font-weight: 900;
+      font-variation-settings: "CASL" 0.8;
+      color: var(--color-azure);
+      text-shadow: 5px 5px 5px hsl(0 0% 0% / 0.4);
+    }
+  }
+
+  /** Primary navigation **/
+
+  @scope (.primary-navigation) {
+    :scope {
+      padding-block: 16px;
+      padding-inline: 48px;
+
+      position: sticky;
+      top: 0px;
+
+      background-color: var(--color-brown-400);
+    }
+
+    ul {
+      margin: 0;
+
+      list-style: none;
+
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px 32px;
+      justify-content: flex-end;
+    }
+
+    a {
+      color: var(--color-cream);
+      text-decoration: none;
+    }
+
+    a:hover {
+      font-weight: var(--font-weight-semibold);
+      text-decoration: underline;
+    }
+  }
+
+  .page-wrapper {
+    min-block-size: 100svh;
+
+    background-color: var(--background-color-default);
+  }
+
+  .content-wrapper > * {
+    --content-width: var(--content-width-default);
+
+    margin-inline: auto;
+    max-inline-size: min(
+      100% - 2 * var(--site-gutter-width),
+      var(--content-width)
+    );
+  }
+
+  .content-wrapper > .wide-content {
+    --content-width: var(--content-width-wide);
+  }
+
+  .content-wrapper > .narrow-content {
+    --content-width: var(--content-width-narrow);
+  }
+
+  .flow-wrapper > * + * {
+    margin-block-start: var(--flow-space-default);
+  }
+
+  /** add extra space before headings and sections **/
+  .flow-wrapper > * + :is(section, h1, h2, h3) {
+    margin-block-start: var(--flow-space-large);
+  }
+
+  .main-title {
+    padding-block: 1em;
+
+    font-size: var(--font-size-main-title);
+    text-align: center;
+  }
+
+  .section-title {
+    font-size: var(--font-size-section-title);
+  }
+
+  @scope (.panel) {
+    :scope {
+      display: grid;
+      gap: 32px;
+      grid-template-areas:
+        "img"
+        "text";
+
+      @media (width > 47rem) {
+        gap: 48px;
+        grid-template-columns: 1fr 1fr;
+
+        &:nth-child(even) {
+          grid-template-areas: "img text";
+        }
+
+        &:nth-child(odd) {
+          grid-template-areas: "text img";
+        }
+      }
+    }
+
+    .panel-text-content {
+      grid-area: text;
+
+      container: panel-text-content / inline-size;
+    }
+  }
+
+  .panel picture {
+    grid-area: img;
+    justify-self: center;
+  }
+
+  @scope (.gallery) {
+    :scope {
+      --img-min-width: 220px;
+      padding-top: 32px;
+      display: grid;
+      grid-template-columns: repeat(
+        auto-fill,
+        minmax(min(var(--img-min-width), 100%), 1fr)
+      );
+      gap: 24px;
+    }
+  }
+
+  .gallery img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+    border: 2px solid var(--color-brown-400);
+    border-radius: 4px;
+    corner-shape: squircle;
+  }
+}
