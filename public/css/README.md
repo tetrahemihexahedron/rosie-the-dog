@@ -7,14 +7,14 @@ The CSS for this project is still quite modest, so I'm holding off on adding a b
 When the image is built, the script `scripts/prepare-css.sh` is run. It saves a copy of the source CSS file `src/css/style.css` in `public/css` with a cache-busting suffix, like
 
 ```
-style.2026-09-29.b9ceab81.css
+style.b9ceab81.css
 ```
 
 It also records the path to this file in `public/asset-manifest.json`:
 
 ```json
 {
-  "css": "/css/style.2026-09-29.b9ceab81.css"
+  "css": "/css/style.b9ceab81.css"
 }
 ```
 
