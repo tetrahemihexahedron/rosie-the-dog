@@ -4,14 +4,13 @@ compose := "docker compose -f compose.yml -f compose.dev.yml"
 default:
     just --list
 
-# Start dev server
-dev:
-    {{compose}} up --build
-
-# Build the dev CSS file inside the running Caddy container
+# Link the dev CSS file to the source CSS file
 css:
-    {{compose}} exec caddy /app/scripts/prepare-css.sh dev
+    mkdir -p public/css
+    rm -f public/css/style.*.css public/asset-manifest.json
+    ln -s ../../src/css/style.css public/css/style.dev.css
+    printf '{\n  "css": "/css/style.dev.css"\n}\n' > public/asset-manifest.json
 
-# Rebuild prod image locally
-build:
-    docker compose build
+# Start dev server
+dev: css
+    {{compose}} up --build
