@@ -4,4 +4,6 @@
 public/css/style.*.css
 public/asset-manifest.json
 
+# used for unprepared photos
+incoming/
 unused/
