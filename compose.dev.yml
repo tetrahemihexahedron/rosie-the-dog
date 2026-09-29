@@ -9,3 +9,5 @@ services:
       - "${PORT:-8000}:80"
     volumes:
       - ./public:/app/public
+      - ./src:/app/src
+      - ./scripts:/app/scripts
