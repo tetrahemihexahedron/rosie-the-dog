@@ -11,6 +11,14 @@ css:
     ln -s ../../src/css/style.css public/css/style.dev.css
     printf '{\n  "css": "/css/style.dev.css"\n}\n' > public/asset-manifest.json
 
-# Start dev server
+# Prepare dev CSS and start dev server
 dev: css
     {{compose}} up --build
+
+# Take the container down and remove artifacts
+destroy:
+    {{compose}} down --rmi local -v
+
+# Rebuild the images and deploy
+deploy:
+    docker compose -f compose.yml up --build -d
