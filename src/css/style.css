@@ -304,6 +304,7 @@
 
   @scope (.gallery) {
     :scope {
+      --content-width: 1196px;
       --img-min-width: 220px;
       padding-top: 32px;
       display: grid;
