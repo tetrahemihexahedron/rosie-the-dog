@@ -1,0 +1,13 @@
+.git
+.gitignore
+
+.prettierignore
+
+compose.*
+
+.DS_Store
+
+justfile
+
+incoming/
+unused/
